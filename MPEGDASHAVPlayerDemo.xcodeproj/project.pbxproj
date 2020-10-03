@@ -15,11 +15,9 @@
 		9C9DC971238F0FD8002FE38A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C9DC96F238F0FD8002FE38A /* LaunchScreen.storyboard */; };
 		9C9DC979238F10CE002FE38A /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9DC978238F10CE002FE38A /* PlayerView.swift */; };
 		9C9DC97B238F1133002FE38A /* CustomPlaylistDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9DC97A238F1133002FE38A /* CustomPlaylistDelegate.swift */; };
-		DC11A4D317C5A051EDFA8D39 /* libPods-MPEGDASHAVPlayerDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BBF9212AC704754938A54445 /* libPods-MPEGDASHAVPlayerDemo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		22684231B3F93BA312EC25D7 /* Pods-MPEGDASHAVPlayerDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MPEGDASHAVPlayerDemo.release.xcconfig"; path = "Target Support Files/Pods-MPEGDASHAVPlayerDemo/Pods-MPEGDASHAVPlayerDemo.release.xcconfig"; sourceTree = "<group>"; };
 		9C9DC961238F0FD6002FE38A /* MPEGDASHAVPlayerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MPEGDASHAVPlayerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C9DC964238F0FD6002FE38A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9C9DC966238F0FD6002FE38A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -30,8 +28,6 @@
 		9C9DC972238F0FD8002FE38A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9C9DC978238F10CE002FE38A /* PlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
 		9C9DC97A238F1133002FE38A /* CustomPlaylistDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPlaylistDelegate.swift; sourceTree = "<group>"; };
-		B6A259D6DD43E40ABD0195B3 /* Pods-MPEGDASHAVPlayerDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MPEGDASHAVPlayerDemo.debug.xcconfig"; path = "Target Support Files/Pods-MPEGDASHAVPlayerDemo/Pods-MPEGDASHAVPlayerDemo.debug.xcconfig"; sourceTree = "<group>"; };
-		BBF9212AC704754938A54445 /* libPods-MPEGDASHAVPlayerDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MPEGDASHAVPlayerDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,7 +35,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC11A4D317C5A051EDFA8D39 /* libPods-MPEGDASHAVPlayerDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -49,18 +44,8 @@
 		6A43E09A377B9F8D572463D0 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				B6A259D6DD43E40ABD0195B3 /* Pods-MPEGDASHAVPlayerDemo.debug.xcconfig */,
-				22684231B3F93BA312EC25D7 /* Pods-MPEGDASHAVPlayerDemo.release.xcconfig */,
 			);
 			path = Pods;
-			sourceTree = "<group>";
-		};
-		94A7C4D3368E603C62217DB6 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				BBF9212AC704754938A54445 /* libPods-MPEGDASHAVPlayerDemo.a */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		9C9DC958238F0FD5002FE38A = {
@@ -69,7 +54,6 @@
 				9C9DC963238F0FD6002FE38A /* MPEGDASHAVPlayerDemo */,
 				9C9DC962238F0FD6002FE38A /* Products */,
 				6A43E09A377B9F8D572463D0 /* Pods */,
-				94A7C4D3368E603C62217DB6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,7 +88,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9C9DC975238F0FD8002FE38A /* Build configuration list for PBXNativeTarget "MPEGDASHAVPlayerDemo" */;
 			buildPhases = (
-				E976CA08FF519654C04AF30E /* [CP] Check Pods Manifest.lock */,
 				9C9DC95D238F0FD5002FE38A /* Sources */,
 				9C9DC95E238F0FD5002FE38A /* Frameworks */,
 				9C9DC95F238F0FD5002FE38A /* Resources */,
@@ -163,31 +146,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		E976CA08FF519654C04AF30E /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-MPEGDASHAVPlayerDemo-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9C9DC95D238F0FD5002FE38A /* Sources */ = {
@@ -340,7 +298,6 @@
 		};
 		9C9DC976238F0FD8002FE38A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B6A259D6DD43E40ABD0195B3 /* Pods-MPEGDASHAVPlayerDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -359,7 +316,6 @@
 		};
 		9C9DC977238F0FD8002FE38A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 22684231B3F93BA312EC25D7 /* Pods-MPEGDASHAVPlayerDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
