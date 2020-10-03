@@ -64,18 +64,7 @@ class ViewController: UIViewController {
     }
 
     private func initializeView() {
-        let urls = [
-            "https://dash.akamaized.net/dash264/TestCasesHD/1b/qualcomm/1/MultiRate.mpd",
-            "https://dash.akamaized.net/dash264/TestCasesHD/1b/qualcomm/2/MultiRate.mpd",
-            "https://dash.akamaized.net/dash264/TestCasesHD/2b/qualcomm/1/MultiResMPEG2.mpd",
-            "https://dash.akamaized.net/dash264/TestCasesHD/2b/qualcomm/2/MultiRes.mpd",
-            "https://dash.akamaized.net/dash264/TestCases/1b/qualcomm/1/MultiRatePatched.mpd",
-            "https://dash.akamaized.net/dash264/TestCases/1b/qualcomm/2/MultiRate.mpd",
-            "https://dash.akamaized.net/dash264/TestCases/2b/qualcomm/1/MultiResMPEG2.mpd",
-            "https://dash.akamaized.net/dash264/TestCases/2b/qualcomm/2/MultiRes.mpd",
-            "https://dash.akamaized.net/dash264/TestCases/9b/qualcomm/1/MultiRate.mpd",
-            "https://dash.akamaized.net/dash264/TestCases/9b/qualcomm/2/MultiRate.mpd",
-        ]
+        let urls = [PlaylistInfo.masterPlaylistURL]
         if let url = URL(string: toCustomUrl(urls[0])) {
             self.url = url
         }

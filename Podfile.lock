@@ -1,20 +1,16 @@
 PODS:
   - STRegex (2.1.0)
-  - SwiftLint (0.37.0)
 
 DEPENDENCIES:
   - STRegex (~> 2.1)
-  - SwiftLint
 
 SPEC REPOS:
   trunk:
     - STRegex
-    - SwiftLint
 
 SPEC CHECKSUMS:
   STRegex: dfa420d93d8c1402956233b3879ec1fc14b45fbe
-  SwiftLint: c078a14d7d7ade75e5507795d185e3da41d844d2
 
-PODFILE CHECKSUM: 90c185dc6364b1c0cecb1da6b052f3dde738aa55
+PODFILE CHECKSUM: 7a2972b0a8ede7d5e99901ac459492142565daf5
 
-COCOAPODS: 1.8.4
+COCOAPODS: 1.9.3
